@@ -18,7 +18,7 @@ func main() {
 	fmt.Println("Exp : ", profile.Exp)
 	fmt.Println("=== HEROES POWER UP===")
 
-	powerup := PowerUp(profile, 2)
+	powerup := PowerUp(*profile, 2)
 	fmt.Println("Name : ", powerup.Name)
 	fmt.Println("Health : ", powerup.Health)
 	fmt.Println("Power : ", powerup.Power)
